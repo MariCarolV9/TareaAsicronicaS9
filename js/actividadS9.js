@@ -69,9 +69,9 @@ btnCalcular.addEventListener("click", () => {
     resultado.innerText = `${newEmpleado.nombre} ${newEmpleado.apellido}`;
 
     resultCargo.innerText = `${newEmpleado.cargo}`;
-    resultSueldoBruto.innerText = `S/` + `${newEmpleado.sueldoBruto().toFixed(2)}`;
-    resultDescuento.innerText = `S/` + `${newEmpleado.descuento().toFixed(2)}`;
-    resultSueldoNeto.innerText = `S/` + `${newEmpleado.sueldoNeto().toFixed(2)}`;
+    resultSueldoBruto.innerText = `S/ ` + `${newEmpleado.sueldoBruto().toFixed(2)}`;
+    resultDescuento.innerText = `S/ ` + `${newEmpleado.descuento().toFixed(2)}`;
+    resultSueldoNeto.innerText = `S/ ` + `${newEmpleado.sueldoNeto().toFixed(2)}`;
 });
 
 
